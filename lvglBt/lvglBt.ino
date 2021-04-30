@@ -9,10 +9,7 @@ static lv_color_t buf[LV_HOR_RES_MAX * 10];
 #define wh 320
 #define he 240
 
-lv_obj_t *btn;
-lv_obj_t *label;
-lv_obj_t *btn2;
-lv_obj_t *label2;
+
 /* Serial debugging */
 void my_print(lv_log_level_t level, const char * file, uint32_t line, const char * dsc)
 {
@@ -56,7 +53,7 @@ static void event_handler( lv_event_t event)
 
     if (event == LV_EVENT_CLICKED) {
         Serial.println("Clicked\n");
-            lv_label_set_text(label, "Button ");
+           
 
         
     } else if (event == LV_EVENT_VALUE_CHANGED) {
@@ -118,6 +115,10 @@ bool my_touchpad_read(lv_indev_drv_t * indev_driver, lv_indev_data_t * data )
 }
 void setup()
 {
+  lv_obj_t *btn;
+lv_obj_t *label;
+lv_obj_t *btn2;
+lv_obj_t *label2;
 
     Serial.begin(115200); /* prepare for possible serial debug */
 
