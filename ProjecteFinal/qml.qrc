@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Botons.qml</file>
+        <file>BotonsForm.ui.qml</file>
+        <file>Fanals.qml</file>
+        <file>FanalsForm.ui.qml</file>
+        <file>Semaf.qml</file>
+        <file>SemafForm.ui.qml</file>
+    </qresource>
+</RCC>
