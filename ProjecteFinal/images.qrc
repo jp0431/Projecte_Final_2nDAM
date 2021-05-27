@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imatges/mosquitto-logo.png</file>
+    </qresource>
+</RCC>
