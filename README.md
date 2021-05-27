@@ -24,6 +24,6 @@ una aplicación QML i que se vea reflejado en unos LEDS gestionados por un NodeM
 <br/>
 Tanto las farolas como los semaforos tienen una rutina propia hasta que se active la aplicación, en ese caso las luces permaneceran activas hasta que el usuario haga una acción
 Mediante un sensor LDR se establecerá el dia o la noche, es decir, según el nivel que reciba el LDR será de noche o de día, además con un sensor CO2 establecerá el nivel de contaminación.
-#Página web del proyecto <br/>
+Página web del proyecto <br/>
 palauseijas.duckdns.org
 
